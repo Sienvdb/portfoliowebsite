@@ -1,9 +1,22 @@
+@use "./_colors.scss";
+
 *{
     box-sizing: border-box;
     margin: none;
     padding: none;
 }
 
+body{
+    background-color: colors.$white;
+    height: 100%;
+}
+
 h2{
     margin: 0.5em 0;
+}
+
+h1, h2, h3, h4, a, p{
+    font-family: museo-sans, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }

@@ -1,0 +1,45 @@
+.background{
+    position: absolute;
+    z-index: -1;
+    max-height: 100%;
+    display: inline-block;
+}
+
+.background__blob1{
+    left:-30px;
+    bottom:-50%;
+    width: 20%;
+}
+
+.background__blob2{
+    right: -40px;
+    bottom: -180px;
+    width: 15%;
+}
+
+.background__blob3{
+    right: 80px;;
+    top: -70px;
+    width: 40%;
+}
+
+.background__bol1{
+    left:-10px;
+    top:-70px;
+    width: 30%;
+}
+
+.background__bol2{
+    right: -40px;
+    bottom: -100px;
+    width: 25%;
+}
+
+.index-view{
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.portfolio-view{
+    overflow-x: hidden;
+}

@@ -1,0 +1,10 @@
+@use "./../_colors.scss";
+
+.footer{
+    margin-left:-10%;
+    margin-bottom:-10%;
+    width:130%;
+    height: 200px;
+    background-color: colors.$tertaire;
+    margin-top: 7em;
+}

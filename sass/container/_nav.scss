@@ -1,0 +1,24 @@
+@use "./../_colors.scss";
+
+.nav{
+    margin-left: 1em;
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav__topic{
+    color: colors.$black;
+    text-decoration: none;
+    font-family: museo-sans-rounded, sans-serif;
+    font-weight: 600;
+}
+
+#nav__topic--logo{
+    font-family: bebas-neue-rounded, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: colors.$white;
+    font-size: 2em;
+}

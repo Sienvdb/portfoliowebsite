@@ -1,0 +1,52 @@
+@use "./../_colors.scss";
+
+.center-y{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.center-x{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    transform:rotate(90deg);
+    max-height:50px;
+    margin: 7em 0 10em;
+}
+
+.title__img{
+    width:5%;
+}
+
+.index{
+    margin-top:-50px;
+    background-color: colors.$secundary;
+    border: 2px solid;
+    border-color: colors.$black;
+    padding: 1em 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.block__indexs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block__index{
+    display: block;
+    background-color: colors.$offWhite;
+    border: 2px solid;
+    border-color: colors.$black;
+    margin: 2.3em;
+}
+.block__index__img{
+    height: 60vh;
+    padding: 4em 2em;    
+}

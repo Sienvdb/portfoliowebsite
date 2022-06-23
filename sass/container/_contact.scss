@@ -1,0 +1,50 @@
+@use "./../_colors.scss";
+
+#index--contact{
+    width: 40%;
+}
+#title--contact{
+    margin:0;
+    height: 300px;
+    transform:scale(4) rotate(90deg);
+    margin: 2em 0 3em;
+}
+
+#title__img--contact{
+    width: 100%;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    height: 3em;
+}
+
+.block__socials{
+    width: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social__icon{
+    width: 1.5em;
+    margin: 0 1em;
+}
+
+.block__social__media{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3em;
+    width: 100%;
+}
+
+.media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}

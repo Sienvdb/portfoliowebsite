@@ -1,3 +1,5 @@
+@use "./../_colors.scss";
+
 .portfolio{
     display: flex;
     justify-content: center;
@@ -15,7 +17,9 @@
     display: inline-block;
     padding: 1em;
     padding-bottom: 0em;
-    border: 1px solid #ccc;
+    border: 2px solid;
+    border-color: colors.$black;
+    background-color: colors.$offWhite;
 }
 
 .block__img{

@@ -1,4 +1,10 @@
 @use "./global";
 @use "./colors";
+@use "./fonts";
 
-@use "./container/portItem"
+@use "./container/portItem";
+@use "./container/background";
+@use "./container/block";
+@use "./container/nav";
+@use "./container/footer";
+@use "./container/contact";
