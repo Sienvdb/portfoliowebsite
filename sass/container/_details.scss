@@ -1,0 +1,72 @@
+@use "./../_colors.scss";
+
+.details__title{
+    font-family: bebas-neue-rounded, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: colors.$tertaire;
+    font-size: 3em;
+    z-index: 2;
+}
+
+.background__block{
+    background-color: colors.$fourth;
+    border: 2px solid;
+    border-color: colors.$black;
+    padding: 20px;
+    padding-left: 0px;
+    max-width: 50%;
+}
+
+.next{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.next--2{
+    justify-content: space-around;
+}
+
+.under{
+    max-width:50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.under__center{
+    width: 100%;
+}
+
+#detail{
+    padding: 2em;;
+}
+
+.details{
+    width: 50%;
+    padding: 1em;
+}
+
+.details__img__extra--3{
+    width:30%;
+    margin: 0;
+}
+
+.details__title__shadow{
+    color: colors.$darkprimary;
+    position: absolute;
+    margin: 5px 5px 0 0 ;
+}
+
+.details__img__head--dubble{
+    width: 100%;
+}
+
+.details__img__head--background{
+    background-color: colors.$offWhite;
+}
+
+.details__100{
+    width: 100%;
+}

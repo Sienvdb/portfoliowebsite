@@ -50,3 +50,34 @@
     height: 60vh;
     padding: 4em 2em;    
 }
+
+.block__index__img:hover{
+    height: 60vh;
+    padding: 1em 1.12em;
+}  
+
+.link{
+    text-decoration: none;
+    color: colors.$black;
+}
+
+.block__index__pic{
+    position: absolute;
+    z-index: 2;
+    width: 3%;
+}
+
+#magazine{
+    margin-top: -1%;
+    margin-left: -0.5%;
+}
+
+#me{
+    background-color: none;
+    margin-top: 55vh;
+}
+
+#call{
+    margin-top: -1%;
+    margin-left: 10%;
+}
